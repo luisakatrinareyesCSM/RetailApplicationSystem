@@ -11,7 +11,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
     {
         public ProductDBContext() : base("myConnectionString")
         {
-
+            Database.SetInitializer(new LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL.ProductDataInitializer());
         }
 
         public DbSet<Models.Product> Product { get; set; }

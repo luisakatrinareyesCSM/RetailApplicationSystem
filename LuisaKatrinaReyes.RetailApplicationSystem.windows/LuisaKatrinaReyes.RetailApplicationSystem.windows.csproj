@@ -89,6 +89,7 @@
     </Compile>
     <Compile Include="DAL\CustomerDataInitializer.cs" />
     <Compile Include="DAL\CustomerDBContext.cs" />
+    <Compile Include="DAL\ProductDataInitializer.cs" />
     <Compile Include="DAL\RetailuserDataInitializer.cs" />
     <Compile Include="DAL\ProductDBContext.cs" />
     <Compile Include="DAL\RetailuserDBContext.cs" />
