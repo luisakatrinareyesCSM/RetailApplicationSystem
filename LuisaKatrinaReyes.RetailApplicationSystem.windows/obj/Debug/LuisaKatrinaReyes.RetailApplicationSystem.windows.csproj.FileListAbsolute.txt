@@ -22,3 +22,27 @@ C:\Users\hp\source\repos\LuisaKatrinaReyes.RetailApplicationSystem\LuisaKatrinaR
 C:\Users\hp\source\repos\LuisaKatrinaReyes.RetailApplicationSystem\LuisaKatrinaReyes.RetailApplicationSystem.windows\bin\Debug\MySql.Data.xml
 C:\Users\hp\source\repos\LuisaKatrinaReyes.RetailApplicationSystem\LuisaKatrinaReyes.RetailApplicationSystem.windows\bin\Debug\MySql.Data.Entity.EF6.xml
 C:\Users\hp\source\repos\LuisaKatrinaReyes.RetailApplicationSystem\LuisaKatrinaReyes.RetailApplicationSystem.windows\obj\Debug\LuisaKatrinaReyes.RetailApplicationSystem.windows.csproj.CopyComplete
+C:\Users\hp\Desktop\KAT Files\Prog 2 and OOP- G. Jimenez\RetailApplicationSystem\LuisaKatrinaReyes.RetailApplicationSystem.windows\bin\Debug\LuisaKatrinaReyes.RetailApplicationSystem.windows.exe.config
+C:\Users\hp\Desktop\KAT Files\Prog 2 and OOP- G. Jimenez\RetailApplicationSystem\LuisaKatrinaReyes.RetailApplicationSystem.windows\bin\Debug\LuisaKatrinaReyes.RetailApplicationSystem.windows.exe
+C:\Users\hp\Desktop\KAT Files\Prog 2 and OOP- G. Jimenez\RetailApplicationSystem\LuisaKatrinaReyes.RetailApplicationSystem.windows\bin\Debug\LuisaKatrinaReyes.RetailApplicationSystem.windows.pdb
+C:\Users\hp\Desktop\KAT Files\Prog 2 and OOP- G. Jimenez\RetailApplicationSystem\LuisaKatrinaReyes.RetailApplicationSystem.windows\bin\Debug\EntityFramework.dll
+C:\Users\hp\Desktop\KAT Files\Prog 2 and OOP- G. Jimenez\RetailApplicationSystem\LuisaKatrinaReyes.RetailApplicationSystem.windows\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hp\Desktop\KAT Files\Prog 2 and OOP- G. Jimenez\RetailApplicationSystem\LuisaKatrinaReyes.RetailApplicationSystem.windows\bin\Debug\MySql.Data.dll
+C:\Users\hp\Desktop\KAT Files\Prog 2 and OOP- G. Jimenez\RetailApplicationSystem\LuisaKatrinaReyes.RetailApplicationSystem.windows\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\hp\Desktop\KAT Files\Prog 2 and OOP- G. Jimenez\RetailApplicationSystem\LuisaKatrinaReyes.RetailApplicationSystem.windows\bin\Debug\EntityFramework.xml
+C:\Users\hp\Desktop\KAT Files\Prog 2 and OOP- G. Jimenez\RetailApplicationSystem\LuisaKatrinaReyes.RetailApplicationSystem.windows\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hp\Desktop\KAT Files\Prog 2 and OOP- G. Jimenez\RetailApplicationSystem\LuisaKatrinaReyes.RetailApplicationSystem.windows\bin\Debug\MySql.Data.xml
+C:\Users\hp\Desktop\KAT Files\Prog 2 and OOP- G. Jimenez\RetailApplicationSystem\LuisaKatrinaReyes.RetailApplicationSystem.windows\bin\Debug\MySql.Data.Entity.EF6.xml
+C:\Users\hp\Desktop\KAT Files\Prog 2 and OOP- G. Jimenez\RetailApplicationSystem\LuisaKatrinaReyes.RetailApplicationSystem.windows\obj\Debug\LuisaKatrinaReyes.RetailApplicationSystem.windows.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\KAT Files\Prog 2 and OOP- G. Jimenez\RetailApplicationSystem\LuisaKatrinaReyes.RetailApplicationSystem.windows\obj\Debug\MainWindow.g.cs
+C:\Users\hp\Desktop\KAT Files\Prog 2 and OOP- G. Jimenez\RetailApplicationSystem\LuisaKatrinaReyes.RetailApplicationSystem.windows\obj\Debug\App.g.cs
+C:\Users\hp\Desktop\KAT Files\Prog 2 and OOP- G. Jimenez\RetailApplicationSystem\LuisaKatrinaReyes.RetailApplicationSystem.windows\obj\Debug\LuisaKatrinaReyes.RetailApplicationSystem.windows_MarkupCompile.cache
+C:\Users\hp\Desktop\KAT Files\Prog 2 and OOP- G. Jimenez\RetailApplicationSystem\LuisaKatrinaReyes.RetailApplicationSystem.windows\obj\Debug\LuisaKatrinaReyes.RetailApplicationSystem.windows_MarkupCompile.lref
+C:\Users\hp\Desktop\KAT Files\Prog 2 and OOP- G. Jimenez\RetailApplicationSystem\LuisaKatrinaReyes.RetailApplicationSystem.windows\obj\Debug\MainWindow.baml
+C:\Users\hp\Desktop\KAT Files\Prog 2 and OOP- G. Jimenez\RetailApplicationSystem\LuisaKatrinaReyes.RetailApplicationSystem.windows\obj\Debug\LuisaKatrinaReyes.RetailApplicationSystem.windows.g.resources
+C:\Users\hp\Desktop\KAT Files\Prog 2 and OOP- G. Jimenez\RetailApplicationSystem\LuisaKatrinaReyes.RetailApplicationSystem.windows\obj\Debug\LuisaKatrinaReyes.RetailApplicationSystem.windows.Properties.Resources.resources
+C:\Users\hp\Desktop\KAT Files\Prog 2 and OOP- G. Jimenez\RetailApplicationSystem\LuisaKatrinaReyes.RetailApplicationSystem.windows\obj\Debug\LuisaKatrinaReyes.RetailApplicationSystem.windows.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\KAT Files\Prog 2 and OOP- G. Jimenez\RetailApplicationSystem\LuisaKatrinaReyes.RetailApplicationSystem.windows\obj\Debug\LuisaKatrinaReyes.RetailApplicationSystem.windows.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\KAT Files\Prog 2 and OOP- G. Jimenez\RetailApplicationSystem\LuisaKatrinaReyes.RetailApplicationSystem.windows\obj\Debug\LuisaKatrinaReyes.RetailApplicationSystem.windows.csproj.CopyComplete
+C:\Users\hp\Desktop\KAT Files\Prog 2 and OOP- G. Jimenez\RetailApplicationSystem\LuisaKatrinaReyes.RetailApplicationSystem.windows\obj\Debug\LuisaKatrinaReyes.RetailApplicationSystem.windows.exe
+C:\Users\hp\Desktop\KAT Files\Prog 2 and OOP- G. Jimenez\RetailApplicationSystem\LuisaKatrinaReyes.RetailApplicationSystem.windows\obj\Debug\LuisaKatrinaReyes.RetailApplicationSystem.windows.pdb

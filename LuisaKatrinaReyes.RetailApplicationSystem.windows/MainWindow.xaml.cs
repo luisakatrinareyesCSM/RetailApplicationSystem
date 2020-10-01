@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,9 +23,14 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows
         {
             InitializeComponent();
 
+            RetailuserDBContext context = new RetailuserDBContext();
 
+            var Retailuser = context.Retailusers.FirstOrDefault();
 
-
+            if (Retailuser != null)
+            {
+                MessageBox.Show(Retailuser.FirstName);
+            }
 
         }
     }

@@ -10,7 +10,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.Models
 {
     public class Order
     {
-        public Guid? OrderId { get; set; }
+        public Guid? Id { get; set; }
 
         public Guid? CustomerId { get; set; }
 
