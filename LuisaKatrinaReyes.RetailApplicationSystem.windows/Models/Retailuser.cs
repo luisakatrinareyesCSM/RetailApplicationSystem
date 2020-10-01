@@ -8,7 +8,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.Models
 {
     class Retailuser
     {
-        public Guid? Id { get; set; }
+        public Guid? UserId { get; set; }
 
         public string FirstName { get; set; }
 
