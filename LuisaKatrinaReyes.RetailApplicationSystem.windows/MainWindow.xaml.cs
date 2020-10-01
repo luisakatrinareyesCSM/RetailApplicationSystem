@@ -23,13 +23,13 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows
         {
             InitializeComponent();
 
-            RetailuserDBContext context = new RetailuserDBContext();
+            CustomerDBContext context = new CustomerDBContext();
 
-            var Retailuser = context.Retailusers.FirstOrDefault();
+            var Customer = context.Customer.FirstOrDefault();
 
-            if (Retailuser != null)
+            if (Customer != null)
             {
-                MessageBox.Show(Retailuser.FirstName);
+                MessageBox.Show(Customer.CustomerName);
             }
 
         }

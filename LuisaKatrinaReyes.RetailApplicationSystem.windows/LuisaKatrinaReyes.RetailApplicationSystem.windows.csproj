@@ -87,8 +87,9 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DAL\CustomerDataInitializer.cs" />
     <Compile Include="DAL\CustomerDBContext.cs" />
-    <Compile Include="DAL\DataInitializer.cs" />
+    <Compile Include="DAL\RetailuserDataInitializer.cs" />
     <Compile Include="DAL\ProductDBContext.cs" />
     <Compile Include="DAL\RetailuserDBContext.cs" />
     <Compile Include="MainWindow.xaml.cs">

@@ -12,7 +12,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
     {
         public RetailuserDBContext() : base("myConnectionString")
         {
-            Database.SetInitializer(new LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL.DataInitializer());
+            Database.SetInitializer(new LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL.RetailuserDataInitializer());
         }
 
         public RetailuserDBContext(DbSet<Retailuser> retailusers)

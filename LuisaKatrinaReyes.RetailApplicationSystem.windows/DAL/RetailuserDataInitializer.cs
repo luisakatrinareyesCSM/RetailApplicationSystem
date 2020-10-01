@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
 {
-    public class DataInitializer : System.Data.Entity.DropCreateDatabaseAlways<RetailuserDBContext>
+    public class RetailuserDataInitializer : System.Data.Entity.DropCreateDatabaseAlways<RetailuserDBContext>
     {
-        protected override void Seed (RetailuserDBContext Context)
+        protected override void Seed(RetailuserDBContext Context)
         {
             Context.Retailusers.Add(new Models.Retailuser()
             {
@@ -55,6 +55,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ContactNumber = Decimal.Parse("09502801814"),
                 EmailAddress = "joeladrianoreyes@gmail.com"
             });
+
         }
     }
 }
