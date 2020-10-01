@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.Models
 {
-    class Order
+    public class Order
     {
         public Guid? OrderId { get; set; }
 

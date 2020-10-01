@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.Models
 {
-    class Retailuser
+    public class Retailuser
     {
         public Guid? UserId { get; set; }
 

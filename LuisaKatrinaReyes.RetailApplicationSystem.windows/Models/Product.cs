@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.Models
 {
-    class Product
+    public class Product
     {
         public Guid? ProductId { get; set; }
 
