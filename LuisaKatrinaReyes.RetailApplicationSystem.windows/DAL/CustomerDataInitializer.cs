@@ -10,7 +10,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
     {
         protected override void Seed(CustomerDBContext context)
         {
-            context.Customer.Add(new Models.Customer()
+            context.Customers.Add(new Models.Customer()
             {
                 Id = Guid.Parse("68d0a749-70a8-41a0-aa91-9601701433ea"),
                 CustomerName = "Angel Reinne Fernandez",
@@ -20,7 +20,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 Default_ShippingAddress = "#141 Ligaya Street Pagalanggang Dinalupihan Bataan"
             });
 
-            context.Customer.Add(new Models.Customer()
+            context.Customers.Add(new Models.Customer()
             {
                 Id = Guid.Parse("81bc9fed-7cfa-4272-bba1-9570b9f2bc24"),
                 CustomerName = "Jane Dizon",
@@ -30,7 +30,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 Default_ShippingAddress = "#120 Purok 4 Lahar Vilage San Simon Dinalupihan Bataan"
             });
 
-            context.Customer.Add(new Models.Customer()
+            context.Customers.Add(new Models.Customer()
             {
                 Id = Guid.Parse("fcab4d9e-f225-4015-99d9-572e646bf70a"),
                 CustomerName = "Jessiree Bagang",
@@ -40,7 +40,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 Default_ShippingAddress = "#24 Purok 1 San Simon Dinalupihan Bataan"
             });
 
-            context.Customer.Add(new Models.Customer()
+            context.Customers.Add(new Models.Customer()
             {
                 Id = Guid.Parse("2b6238c3-3ebe-4ecd-a71b-445004c574da"),
                 CustomerName = "Bernalyn Fernandez",
@@ -50,7 +50,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 Default_ShippingAddress = "#141 Ligaya Street Pagalanggang Dinalupihan Bataan"
             });
 
-            context.Customer.Add(new Models.Customer()
+            context.Customers.Add(new Models.Customer()
             {
                 Id = Guid.Parse("a45a94ee-b00d-4482-b70a-9c43683e6efd"),
                 CustomerName = "Nenita Corong",

@@ -10,7 +10,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
     {
         protected override void Seed(ProductDBContext context)
         {
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("7c222960-485c-497b-9ae4-f293d1b73e22"),
                 ProductName = "Silver Mirror Square",
@@ -19,7 +19,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("95500128-2f78-41e3-a6df-b34f47ddb499"),
                 ProductName = "Christmas Lantern",
@@ -28,7 +28,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("17f3263f-958b-47e2-9bff-ec692c94dd05"),
                 ProductName = "Jelly Gel Bead",
@@ -38,7 +38,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("c3505155-ccad-4556-8800-3b7531753b88"),
                 ProductName = "2pcs Drawstring Bag",
@@ -48,7 +48,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("9a864c37-0207-45ad-be9a-4646304426ce"),
                 ProductName = "2pcs LED Light",
@@ -58,7 +58,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("d612e9a8-cc66-4944-9412-6bf5c204d4d1"),
                 ProductName = "8pcs/Set of Notebook",
@@ -68,7 +68,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("b223c829-173e-48f7-a286-db79ac98b665"),
                 ProductName = "Mickey Mouse Shirt",
@@ -78,7 +78,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("878009b7-ab48-4bb0-89d3-a13726309a01"),
                 ProductName = "Vaseline Lip Therapy",
@@ -87,7 +87,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("c8fae28e-c58a-4b02-8db9-f14557e343ce"),
                 ProductName = "BTS Poster",
@@ -97,7 +97,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("a923a825-1b5d-4073-8fb7-0acc3ac1040d"),
                 ProductName = "Mini Misquitto Killer",
@@ -107,7 +107,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("947a417c-b7a1-4cda-9ff8-60ae13b2e74d"),
                 ProductName = "Anti-rad Transparent Eyeglasses",
@@ -116,7 +116,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("2283525c-bad9-4a97-9903-88fbe5b7479b"),
                 ProductName = "Eyebrow/Eyeliner Pencil with Concealer ",
@@ -125,7 +125,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("e8680763-ec58-477e-8196-199c01a82e71"),
                 ProductName = "Aloevera Clear Lipstick",
@@ -134,7 +134,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("bca5cbeb-d5bc-46cd-99ee-555815485caa"),
                 ProductName = "Clay Blush 10g",
@@ -143,7 +143,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("1296f1c1-7dbd-4582-929c-b8b68a15a13e"),
                 ProductName = "Disposable Mask",
@@ -152,7 +152,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("92eb39f9-5b91-48cf-8871-5cb03aafc1d2"),
                 ProductName = "1080px of Webcam",
@@ -162,7 +162,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("d68cdffb-817d-4ae1-b370-7f37b267f885"),
                 ProductName = "Bennie Bonnet",
@@ -172,7 +172,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("4eba8c68-fcb4-4f25-9217-b4dfc16e594d"),
                 ProductName = "Chill Croptop Freesize",
@@ -182,7 +182,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("6176216a-5774-485b-bc2e-121231a38b89"),
                 ProductName = "Netflix Croptop Freesize",
@@ -192,7 +192,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("a3e20ecc-53d4-4e8d-b02b-65df0c52d258"),
                 ProductName = "Keyboard with Mouse",
@@ -202,7 +202,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("ec621405-6d8b-4e05-be2b-b2b4b6e36f0d"),
                 ProductName = "1 rim bond paper",
@@ -211,7 +211,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("2ca3e4d4-dbc3-4fa1-b04f-f5e05f756c18"),
                 ProductName = "5pcs/set Sesame street socks",
@@ -221,7 +221,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("24679ea8-a69b-4cbf-9b92-483a0d246e1f"),
                 ProductName = "10pccs/set Bear socks",
@@ -231,7 +231,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("de60f9c3-ce51-446c-b151-4c741a306d8f"),
                 ProductName = "2pcs/ set Sportsband",
@@ -241,7 +241,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("10af129d-6e6a-4b4e-8546-f903ed8b73d6"),
                 ProductName = "automatic Bear Umbrella",
@@ -251,7 +251,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("eaa6a819-f6e7-425f-9c29-39de71879ff4"),
                 ProductName = "Hanabishi Stand Mixer HHMB-1600SS 3.5L",
@@ -263,7 +263,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("58f27194-f12b-49c3-945d-f9ac5317ba35"),
                 ProductName = "Cath Kidston Purse",
@@ -274,7 +274,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("ba2056b7-cd44-4638-8831-e87ddf4e4358"),
                 ProductName = "Moder Hanger",
@@ -284,7 +284,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("4256d8e0-90e7-405a-8c4d-1067b84659ec"),
                 ProductName = "Cake turntable",
@@ -294,7 +294,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-            context.Product.Add(new Models.Product()
+            context.Products.Add(new Models.Product()
             {
                 Id = Guid.Parse("77274f5a-f7bd-40a7-9629-3d5536703e6e"),
                 ProductName = "Linkbitz Bluetooth Speaker RFR-203",

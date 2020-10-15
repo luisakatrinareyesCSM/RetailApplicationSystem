@@ -1,4 +1,5 @@
 ﻿using LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL;
+using LuisaKatrinaReyes.RetailApplicationSystem.windows.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,15 +24,33 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows
         {
             InitializeComponent();
 
-            CustomerDBContext context = new CustomerDBContext();
+            //CustomerDBContext context = new CustomerDBContext();
 
-            var Customer = context.Customer.FirstOrDefault();
+            //var Customer = context.Customers.FirstOrDefault();
 
-            if (Customer != null)
-            {
-                MessageBox.Show(Customer.CustomerName);
-            }
+            //if (Customer != null)
+            //{
+            //    MessageBox.Show(Customer.CustomerName);
+            //}
 
+        }
+
+        private void btnRetailUsers_Click(object sender, RoutedEventArgs e)
+        {
+            Lists.RetailUserList listWindow = new Lists.RetailUserList();
+            listWindow.Show();
+        }
+
+        private void btnCustomers_Click(object sender, RoutedEventArgs e)
+        {
+            Lists.CustomerList listWindow = new Lists.CustomerList();
+            listWindow.Show();
+        }
+
+        private void btnProducts_Click(object sender, RoutedEventArgs e)
+        {
+            Lists.ProductList listWindow = new Lists.ProductList();
+            listWindow.Show();
         }
     }
 }

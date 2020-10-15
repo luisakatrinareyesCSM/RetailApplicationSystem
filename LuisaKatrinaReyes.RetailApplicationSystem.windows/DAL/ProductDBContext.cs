@@ -14,6 +14,6 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
             Database.SetInitializer(new LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL.ProductDataInitializer());
         }
 
-        public DbSet<Models.Product> Product { get; set; }
+        public DbSet<Models.Product> Products { get; set; }
     }
 }

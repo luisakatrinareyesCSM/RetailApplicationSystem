@@ -1,0 +1,16 @@
+﻿<Window x:Class="LuisaKatrinaReyes.RetailApplicationSystem.windows.Lists.ProductList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LuisaKatrinaReyes.RetailApplicationSystem.windows.Lists"
+        mc:Ignorable="d"
+        Title="ProductList" Height="450" Width="800">
+    <Grid>
+        <ComboBox x:Name="cboOrderBy" HorizontalAlignment="Left" Margin="649,24,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cboOrderBy_SelectionChanged" Height="31"/>
+        <ComboBox x:Name="cboSortOrder" HorizontalAlignment="Left" Margin="446,24,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cboOrderBy_SelectionChanged" Height="31"/>
+        <Label x:Name="LbSortOrder" Content="Sort Order" HorizontalAlignment="Left" Margin="370,24,0,0" VerticalAlignment="Top" Height="31" Width="76" FontSize="14"/>
+        <Label x:Name="LbOrderBy" Content="Order By" HorizontalAlignment="Left" Margin="582,24,0,0" VerticalAlignment="Top" Height="31" Width="64" FontSize="14"/>
+        <DataGrid x:Name="dgProducts" HorizontalAlignment="Left" Height="244" Margin="38,88,0,0" VerticalAlignment="Top" Width="712"/>
+    </Grid>
+</Window>
