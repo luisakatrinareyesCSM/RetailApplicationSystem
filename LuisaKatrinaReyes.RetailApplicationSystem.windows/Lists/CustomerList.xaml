@@ -11,6 +11,12 @@
         <ComboBox x:Name="cboSortOrder" HorizontalAlignment="Left" Margin="446,24,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cboOrderBy_SelectionChanged" Height="31"/>
         <Label x:Name="LbSortOrder" Content="Sort Order" HorizontalAlignment="Left" Margin="370,24,0,0" VerticalAlignment="Top" Height="31" Width="76" FontSize="14"/>
         <Label x:Name="LbOrderBy" Content="Order By" HorizontalAlignment="Left" Margin="582,24,0,0" VerticalAlignment="Top" Height="31" Width="64" FontSize="14"/>
+        <Button x:Name="btnFirst" Content="First" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="18" Margin="38,352,0,0" Click="btnFirst_Click"/>
+        <Button x:Name="btnLast" Content="Last" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="18" Margin="277,353,0,0" Click="btnLast_Click"/>
+        <Button x:Name="btnNext" Content="Next" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="18" Margin="197,352,0,0" RenderTransformOrigin="0.615,2.311" Click="btnNext_Click"/>
+        <Button x:Name="btnPrevious" Content="Previous" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Height="18" Margin="118,352,0,0" Click="btnPrevious_Click"/>
+        <TextBox x:Name="txtPageSize" Text="1" HorizontalAlignment="Left" Height="18" TextWrapping="Wrap" VerticalAlignment="Top" Width="75" Margin="675,352,0,0" TextChanged="txtPageSize_TextChanged"/>
+        <Label x:Name="lblPageSize" Content="Page Size" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="610,350,0,0" RenderTransformOrigin="5.75,0.769"/>
         <DataGrid x:Name="dgCustomer" HorizontalAlignment="Left" Height="244" Margin="38,88,0,0" VerticalAlignment="Top" Width="712"/>
     </Grid>
 </Window>

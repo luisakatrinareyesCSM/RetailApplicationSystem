@@ -305,7 +305,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 ProductQuantity = Decimal.Parse("100")
             });
 
-
+            context.SaveChanges();
         }
     }
 }

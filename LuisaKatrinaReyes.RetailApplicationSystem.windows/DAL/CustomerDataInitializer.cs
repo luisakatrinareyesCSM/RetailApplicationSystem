@@ -60,6 +60,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 Default_ShippingAddress = "#123 Purok 2 San Simon Dinalupihan Bataan"
             });
 
+            context.SaveChanges();
         }
     }
 }

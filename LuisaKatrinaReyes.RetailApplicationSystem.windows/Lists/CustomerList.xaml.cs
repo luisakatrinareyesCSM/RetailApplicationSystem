@@ -22,12 +22,15 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.Lists
     {
         private string customerorderBy = "CustomerName";
         private string sortOrder = "Ascending";
+        private int pageSize = 1;
+        private int pageIndex = 1;
+        private long pageCount = 1;
         public CustomerList()
         {
             InitializeComponent();
         }
 
-        private void cboSortOrder_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void cboOrderBy_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             customerorderBy = cboOrderBy.SelectedValue.ToString();
             showData();
@@ -35,11 +38,14 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.Lists
 
         private void showData()
         {
-            dgCustomer.ItemsSource = CustomerBLL.Search(customerorderBy, sortOrder);
+            var customers = CustomerBLL.Search(pageIndex, pageSize, customerorderBy, sortOrder);
+
+            dgCustomer.ItemsSource = customers.Items;
+            pageCount = customers.PageCount;
 
         }
 
-        private void cboOrderBy_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void cboSortOrder_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (cboSortOrder.SelectedValue.ToString().ToLower() == "Ascending")
             {
@@ -49,6 +55,48 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.Lists
             {
                 sortOrder = "Descending";
             }
+        }
+
+        private void btnFirst_Click(object sender, RoutedEventArgs e)
+        {
+            pageIndex = 1;
+            showData();
+        }
+
+        private void btnPrevious_Click(object sender, RoutedEventArgs e)
+        {
+            pageIndex = pageIndex - 1;
+            if (pageIndex < 1)
+            {
+                pageIndex = 1;
+            };
+            showData();
+        }
+
+        private void btnNext_Click(object sender, RoutedEventArgs e)
+        {
+            pageIndex = pageIndex + 1;
+            if (pageIndex > pageCount)
+            {
+                pageIndex = (int)pageCount;
+            };
+            showData();
+        }
+
+        private void btnLast_Click(object sender, RoutedEventArgs e)
+        {
+            pageIndex = (int)pageCount;
+            showData();
+        }
+
+        private void txtPageSize_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (txtPageSize.Text.Length > 0)
+            {
+                int.TryParse(txtPageSize.Text, out pageSize);
+            }
+
+            showData();
         }
     }
 }

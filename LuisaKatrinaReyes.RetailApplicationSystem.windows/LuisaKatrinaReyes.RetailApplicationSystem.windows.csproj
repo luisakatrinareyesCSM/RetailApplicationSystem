@@ -108,6 +108,7 @@
     <Compile Include="DAL\RetailuserDataInitializer.cs" />
     <Compile Include="DAL\ProductDBContext.cs" />
     <Compile Include="DAL\RetailuserDBContext.cs" />
+    <Compile Include="Helpers\Paged.cs" />
     <Compile Include="Lists\CustomerList.xaml.cs">
       <DependentUpon>CustomerList.xaml</DependentUpon>
     </Compile>

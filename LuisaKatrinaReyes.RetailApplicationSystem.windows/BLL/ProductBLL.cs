@@ -1,4 +1,5 @@
 ﻿using LuisaKatrinaReyes.RetailApplicationSystem.windows.Models;
+using LuisaKatrinaReyes.RetailApplicationSystem.windows.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,25 +12,35 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.BLL
     {
         public static DAL.ProductDBContext db = new DAL.ProductDBContext();
 
-        public static List<Product> Search(string orderBy = "ProductName", string sortOrder = "Ascending")
+        public static Paged<Models.Product> Search(int pageIndex = 1, int pageSize = 1, string orderBy = "ProductName", string sortOrder = "Ascending")
         {
-            List<Product> products = new List<Product>();
+            Paged<Models.Product> products = new Paged<Models.Product>();
+            var queryCount = db.Products.Count();
+            var skip = pageSize * (pageIndex - 1);
+            long pageCount = (long)Math.Ceiling((decimal)(queryCount / pageSize));
+
             if (orderBy.ToLower() == "ProductName" && sortOrder.ToLower() == "Ascending")
             {
-                products = db.Products.OrderBy(a => a.ProductName).ToList();
+                products.Items = db.Products.OrderBy(e => e.ProductName).Skip(skip).Take(pageSize).ToList();
             }
             else if (orderBy.ToLower() == "ProductName" && sortOrder.ToLower() == "Descending")
             {
-                products = db.Products.OrderByDescending(a => a.ProductName).ToList();
+                products.Items = db.Products.OrderByDescending(a => a.ProductName).Skip(skip).Take(pageSize).ToList();
             }
             else if (orderBy.ToLower() == "ProductPrice" && sortOrder.ToLower() == "Ascending")
             {
-                products = db.Products.OrderBy(a => a.ProductPrice).ToList();
+                products.Items = db.Products.OrderBy(a => a.ProductPrice).Skip(skip).Take(pageSize).ToList();
             }
-            else if (orderBy.ToLower() == "ProductPrice" && sortOrder.ToLower() == "Descending")
+            else
             {
-                products = db.Products.OrderByDescending(a => a.ProductPrice).ToList();
+                products.Items = db.Products.OrderByDescending(a => a.ProductPrice).Skip(skip).Take(pageSize).ToList();
             }
+
+            products.PageCount = pageCount;
+            products.QueryCount = queryCount;
+            products.PageIndex = pageIndex;
+            products.PageSize = pageSize;
+
             return products;
         }
     }

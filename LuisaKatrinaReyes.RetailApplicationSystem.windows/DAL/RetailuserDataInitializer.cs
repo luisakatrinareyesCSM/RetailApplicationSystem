@@ -9,9 +9,9 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
 {
     public class RetailuserDataInitializer : System.Data.Entity.DropCreateDatabaseAlways<RetailuserDBContext>
     {
-        protected override void Seed(RetailuserDBContext Context)
+        protected override void Seed(RetailuserDBContext context)
         {
-            Context.Retailusers.Add(new Models.Retailuser()
+            context.Retailusers.Add(new Models.Retailuser()
             {
                 Id = Guid.Parse("0078f08c-6a57-46ec-ba8b-88b62ba55811"),
                 FirstName = "Izzel Kate",
@@ -20,7 +20,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 EmailAddress = "izzelkatereyes@gmail.com"
             });
 
-            Context.Retailusers.Add(new Models.Retailuser()
+            context.Retailusers.Add(new Models.Retailuser()
             {
                 Id = Guid.Parse("ef7c0e50-abc7-4ec4-a1bb-484e9d2f9a4c"),
                 FirstName = "Luisa Katrina",
@@ -29,7 +29,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 EmailAddress = "luisakatrinareyes@gmail.com"
             });
 
-            Context.Retailusers.Add(new Models.Retailuser()
+            context.Retailusers.Add(new Models.Retailuser()
             {
                 Id = Guid.Parse("e2a8909d-3ea3-4db4-8296-2fe4fbb8b3b6"),
                 FirstName = "Leoj Ibsen",
@@ -38,7 +38,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 EmailAddress = "leojibsenreyes@gmail.com"
             });
 
-            Context.Retailusers.Add(new Models.Retailuser()
+            context.Retailusers.Add(new Models.Retailuser()
             {
                 Id = Guid.Parse("baa3cf5a-58b0-42f4-8c11-15346ccd94e0"),
                 FirstName = "Liza",
@@ -47,7 +47,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 EmailAddress = "lizapangilinanreyes@gmail.com"
             });
 
-            Context.Retailusers.Add(new Models.Retailuser()
+            context.Retailusers.Add(new Models.Retailuser()
             {
                 Id = Guid.Parse("c54b675b-da6b-4f4b-9d69-8b6bcae3979e"),
                 FirstName = "Joel",
@@ -56,6 +56,7 @@ namespace LuisaKatrinaReyes.RetailApplicationSystem.windows.DAL
                 EmailAddress = "joeladrianoreyes@gmail.com"
             });
 
+            context.SaveChanges();
         }
     }
 }
